@@ -49,35 +49,45 @@ Ensure you have the following installed:
 ```txt
 qrcode
 pillow
+```
 
+---
 
-⚙️ Installation
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/qr-code-generator.git
+## ⚙️ Installation
+
+Follow the steps below to set up the project on your local machine.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/the-freelauncer/qr-code-generator.git
 cd qr-code-generator
+```
 
-2️⃣ (Optional) Create a Virtual Environment
+### 2️⃣ Create a Virtual Environment (Recommended)
+
+```bash
+
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 
-3️⃣ Install Dependencies
+```
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
 
+```
+### ▶️ How to Run the Project
 
-If requirements.txt is not available:
+```bash
+python3 main.py
+```
 
-pip install qrcode[pil] pillow
-
-▶️ How to Run the Project
-🔹 Method 1: Run the Python Script
-python main.py
+#### **AUTHORED BY THE-FREELAUNCER**
 
 
-Replace main.py with your actual Python file name if different.
 
-🔹 Method 2: Use the Code Directly
-import qrcode
 
-data = "https://github.com"
-qr = qrcode.make(data)
-qr.save("qrcode.png")
