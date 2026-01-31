@@ -70,8 +70,8 @@ cd qr-code-generator
 
 ```bash
 
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate      # On Windows: venv\Scripts\activate
 
 ```
 ### 3️⃣ Install Dependencies
